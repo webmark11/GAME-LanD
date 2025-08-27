@@ -1,0 +1,31 @@
+button{
+    height:50px;
+    width: 200px;
+    border-radius: 60px;
+    background-color:#FFA07A;
+    font-size:20px;
+    font-style:italic
+}
+button:active{
+    background-color:#007bff;
+}
+button:hover{
+    background-color:#34C759;
+}
+.bottom-section{
+    background-color: white;
+    color: black;
+    padding: 50px;
+    text-align: center;
+}
+.back-video{
+    object-fit: cover;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    min-height:100% ;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
