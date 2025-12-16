@@ -1,0 +1,64 @@
+button{
+    height:50px;
+    width: 200px;
+    border-radius: 60px;
+    background-color:#FFA07A;
+    font-size:20px;
+    font-style:italic
+}
+button:active{
+    background-color:#feb294;
+}
+button:hover{
+    background-color:#feb294;
+}
+.bottom-section{
+    background-color: white;
+    color: black;
+    padding: 50px;
+    text-align: center;
+}
+.back-video{
+    object-fit: cover;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    min-height:100% ;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+input[type="text"] {
+    padding:8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color:transparent ;
+    color:white;
+}
+.game-card{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+.hidden{
+    display: none;
+}
+#noResults{
+    display: none;
+    margin-top: 12px;
+}
+#searchBox{
+    padding: 10px;
+    width: 100%;
+    max-width: 420px;
+}
+.form{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 55%;
+    background-color:transparent ;
+}
